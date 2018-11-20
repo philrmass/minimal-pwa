@@ -1,0 +1,17 @@
+{
+  "name": "Minimal PWA",
+  "short_name": "Minimal PWA",
+  "start_url": "/minimal-pwa/index.html",
+  "scope": "/minimal-pwa/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#fff",
+  "description": "A minimal setup for a progressive web app",
+  "icons": [
+    {
+      "src": "/minimal-pwa/img/logo-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

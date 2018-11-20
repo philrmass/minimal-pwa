@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="A minimal setup for a progressive web app">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <meta name="theme-color" content="#fff">
+    <link rel="manifest" href="/minimal-pwa/manifest.webmanifest">
+    <title>Minimal PWA</title>
+  </head>
+  <body>
+    <h1>Minimal PWA</h1>
+    <p>version 0.2</p>
+    <script>
+      if("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("/minimal-pwa/sw.js")
+          .then(function() { console.log("Registered service worker"); });
+      }
+    </script>
+  </body>
+</html>
